@@ -1,0 +1,44 @@
+{
+  "name": "multi_unit_value",
+  "version": "1.0.0",
+  "description": "A TypeScript library for handling measurement units. It provides classes for different types of measurements (length, area, volume, temperature, etc.), each with a numerical value and a unit. Mathematical operations (addition, subtraction, multiplication, and division) automatically convert units to ensure consistency and return the result in the desired unit.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LilLakes/MutliUnitValue.git"
+  },
+  "keywords": [
+    "units",
+    "measurement",
+    "conversion",
+    "typescript",
+    "math",
+    "length",
+    "area",
+    "volume",
+    "temperature",
+    "unit",
+    "conversion",
+    "metric",
+    "imperial",
+    "calculation",
+    "arithmetic",
+    "npm-package"
+  ],
+  "author": "Francesco Laghetti aka LilLakes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LilLakes/MutliUnitValue/issues"
+  },
+  "homepage": "https://github.com/LilLakes/MutliUnitValue#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
